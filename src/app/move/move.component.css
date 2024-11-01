@@ -1,0 +1,29 @@
+* {
+  font-family: "Gill Sans MT", fantasy;
+}
+
+#move_header {
+  width: 675px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+#move_description {
+  position: relative;
+  top: -30px;
+  height: 0;
+  font-family: "Gill Sans MT", fantasy;
+}
+
+.descriptor{
+  background-color: slateblue;
+  border: royalblue 5px double;
+  border-radius: 25px;
+  height: max-content;
+}
+
+.move_title{
+  border-bottom: royalblue 5px solid;
+}
+

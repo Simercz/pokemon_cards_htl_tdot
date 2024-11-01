@@ -1,0 +1,28 @@
+* {
+  font-family: "Gill Sans MT", fantasy;
+}
+
+#ability_header {
+  width: 675px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+#ability_description {
+  position: relative;
+  top: -30px;
+  height: 0;
+  font-family: "Gill Sans MT", fantasy;
+}
+
+.descriptor{
+  background-color: indianred;
+  border: darkred 5px double;
+  border-radius: 25px;
+  height: max-content;
+}
+
+.ability_title{
+  border-bottom: darkred 5px solid;
+}
+

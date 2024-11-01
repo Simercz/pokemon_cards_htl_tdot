@@ -1,0 +1,17 @@
+
+#header_container {
+  width: 675px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.poke_header_div{
+  font-size: xxx-large;
+  padding: 20px 20px 20px 20px;
+}
+
+
+#hp{
+font-size: xx-large;
+}
