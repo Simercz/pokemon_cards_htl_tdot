@@ -1,0 +1,71 @@
+$cardBorder: #ffe658;
+$pokemonImage: url("../resources/sprites/squirtle.png");
+$pokemonBackgroundImage: url("../resources/backgrounds/ocean.jpg");
+
+$cardTexture: url("../resources/textures/card_grain.png");
+
+#card_container{
+    background-color: darkblue;
+    background-image: $cardTexture;
+}
+
+
+
+
+
+
+* {
+  font-family: "Gill Sans MT Ext Condensed Bold", fantasy;
+}
+
+span {
+  font-size: xxx-large;
+}
+
+#pokemon_container {
+  background-image: $pokemonImage, $pokemonBackgroundImage;
+
+  background-position: center, center;
+  background-size: contain, cover;
+  background-repeat: no-repeat, repeat;
+  background-color: aquamarine;
+  height: 400px;
+  width: 675px;
+  margin-bottom: 25px;
+}
+
+#card_container {
+  height: 1030px;
+  width: 745px;
+  border-radius: 45px;
+}
+#container {
+  border: $cardBorder 45px solid;
+  border-radius: 45px;
+
+  width: 745px;
+  background-color: $cardBorder;
+}
+
+#display_column{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+#card_content {
+  font-family: "Gill Sans MT", fantasy;
+}
+
+#illustrator {
+  font-family: "Gill Sans MT", fantasy;
+  font-size: medium;
+}
+
+#center_container {
+  display: flex;
+  justify-content: center;
+}

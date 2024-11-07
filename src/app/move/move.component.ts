@@ -10,5 +10,5 @@ import {Component, Input} from '@angular/core';
 export class MoveComponent {
   @Input() moveName: string = 'Placeholder';
   @Input() moveDescription: string = 'Placeholder Description';
-  @Input() moveDamage: string = 'Placeholder Move';
+  @Input() moveDamage: string = '0';
 }

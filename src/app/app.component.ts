@@ -10,12 +10,9 @@ import {AbilityComponent} from './ability/ability.component';
   standalone: true,
   imports: [RouterOutlet, PokemonHeaderComponent, NgOptimizedImage, MoveComponent, AbilityComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'pokemon_cards_htl_tdot';
-  outline: string = 'blue'
 
-
-  outlineColor: string = `background-color:${this.outline};border-color:${this.outline};`;
 }
