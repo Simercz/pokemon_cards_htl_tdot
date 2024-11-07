@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-move',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './move.component.css'
 })
 export class MoveComponent {
-
+  @Input() moveName: string = 'Placeholder';
+  @Input() moveDescription: string = 'Placeholder Description';
+  @Input() moveDamage: string = 'Placeholder Move';
 }

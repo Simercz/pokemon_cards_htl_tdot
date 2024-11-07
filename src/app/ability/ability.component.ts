@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-ability',
@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './ability.component.css'
 })
 export class AbilityComponent {
-
+  @Input() abilityName: string = 'Placeholder';
+  @Input() abilityDescription: string = 'Placeholder description';
 }

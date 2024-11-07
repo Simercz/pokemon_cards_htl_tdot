@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-pokemon-header',
@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './pokemon-header.component.css'
 })
 export class PokemonHeaderComponent {
-  hp: number = 0;
+  @Input() pokemonName: string = 'Placeholder';
+  @Input() pokemonType: string = 'Placeholder Type';
+  @Input() pokemonHP: string = '0';
+
 }

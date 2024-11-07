@@ -14,7 +14,6 @@ import {AbilityComponent} from './ability/ability.component';
 })
 export class AppComponent {
   title = 'pokemon_cards_htl_tdot';
-  illustrator: string = 'Sample Name';
   outline: string = 'blue'
 
 
