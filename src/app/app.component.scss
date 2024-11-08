@@ -1,13 +1,53 @@
-$cardBorder: #ffe658;
-$pokemonImage: url("../resources/sprites/squirtle.png");
-$pokemonBackgroundImage: url("../resources/backgrounds/ocean.jpg");
+$cardBorder: #ffe650;
+
+$pokemonImage: url(../resources/sprites/Schlingel.png);
+
+$pokemonBackgroundImage: url("../resources/backgrounds/clouds.jpg");
 
 $cardTexture: url("../resources/textures/card_grain.png");
 
+$gradient: linear-gradient(to right, red, blue);
+
 #card_container{
-    background-color: darkblue;
-    background-image: $cardTexture;
+  background-color: white;
+  //background-image: $cardTexture;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -28,7 +68,7 @@ span {
   background-position: center, center;
   background-size: contain, cover;
   background-repeat: no-repeat, repeat;
-  background-color: aquamarine;
+  background-color: gainsboro;
   height: 400px;
   width: 675px;
   margin-bottom: 25px;
